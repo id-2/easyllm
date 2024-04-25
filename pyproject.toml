@@ -33,7 +33,7 @@ classifiers = [
 ]
 dynamic = ["version"]
 scripts = { easyllm = "easyllm.cli:main" }
-dependencies = ["pydantic==2.1.1", "nanoid==2.0.0", "huggingface-hub==0.16.4"]
+dependencies = ["pydantic==2.4.0", "nanoid==2.0.0", "huggingface-hub==0.16.4"]
 
 [project.optional-dependencies]
 test = ["pytest", "ruff", "black", "isort", "mypy", "hatch"]
